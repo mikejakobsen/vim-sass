@@ -1,0 +1,5 @@
+Given css:
+Do (m:a; dib;<Enter>):
+  a  m:a; dib;
+Expect (multiple statements don't stack on the same line);
+  margin: auto; dib;
